@@ -1,13 +1,27 @@
-import LogoBranca from "../../img/LogoBranca.png"
-import LogoRosa from "../../img/LogoRosa.png"
-import "./Logo.css"
+import React from 'react';
+import logo from '../../images/logo_DStore.png'; 
+import logoBranca from '../../images/logo_DStore_branca.png'; 
 
-export default function Logo({branco}) {
-    return(
-        <div id="logoCont">
-          <img src={branco == true ? LogoBranca : LogoRosa } alt="asdasd" />
-        
-        </div>
-    )
-}
+const Logo = ({cor = 'rosa'}) => {
+    return (
+      <>
+          {/* troca a cor da logo,dependedno do paramento passado */}
+          {cor == 'branca' && <img src={logoBranca} alt="Digital Store Logo" style={{ 
+   
+             left: '0%',
+             right: '86.96%',
+             top: '86.36%',
+             bottom: '-61.36%',
+                        }} />}
+          {cor == 'rosa' && <img src={logo} alt="Digital Store Logo" style={{ 
+   
+             left: '0%',
+             right: '86.96%',
+             top: '86.36%',
+             bottom: '-61.36%',
+                        }} />}
+      </>
+    );
+};
 
+export default Logo;

@@ -1,0 +1,81 @@
+
+.cardsEmDestaque{
+    width: 1239px;
+    margin: auto;
+}
+
+.cardsEmDestaque strong{
+    color: var(--dark-gray-2);
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    margin: 40px auto 20px auto;
+    
+}
+
+.listaCardDestaque{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1239px;
+    padding-bottom: 30px;
+
+}
+.cardDestaque {
+    width: 405px;
+    height: 251px;
+    background: #D8E3F2;
+    border-radius: var(--borda-redonda);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+
+.infoCard {
+    z-index: 1;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infoCard h3{
+    width: 172px;
+    height: 72px;
+    font-weight: bold;
+    color: var(--dark-gray);
+}
+
+.descontoCard {
+    width: 96px;
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    background: #E7FF86;
+    font-weight: bold;
+    position: relative;
+    border-radius: 29px;
+    color: var(--dark-gray-2);
+}
+
+.btnCard {
+    background-color: var(--white);
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    border-radius: var(--borda-redonda);
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.imagemCard {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+

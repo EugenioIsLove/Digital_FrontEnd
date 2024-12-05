@@ -1,0 +1,81 @@
+
+/* Header digital Store */
+header{
+    padding: 1% 3%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+/*Parte decima do header  */
+#top-nav{
+    
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+/* barra de pesquisa */
+#form-search-nav{
+    
+    background-color: hsla(0, 0%, 40%, 0.040);
+    width: 55%;
+    border-radius: var(--borda-redonda);
+}
+#pesProduto{
+    width: 95%;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: var(--borda-redonda);
+}
+#btnPesquisa{
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--dark-gray-3);
+    border: none;
+    border-radius: var(--borda-redonda);
+}
+/* botão de cadastro */
+#link_cadastro{
+    text-decoration: none;
+    border-bottom: 1px solid var(--dark-gray-2);
+    color: var(--dark-gray-2);
+}
+#cadEntraCarinho{
+    display: flex;
+    align-items: center;
+   
+}
+.btn_primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    color: #FFFFFF;
+    width: 114px;
+    height: 40px;
+    margin-right: 50px;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+/* parte de baixo do nav */
+#listNavLinks{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+    
+}
+.listLinks a{
+    text-decoration: none;
+    color: var(--dark-gray-3);
+    
+}
+.listLinksConfirme a{
+    color: var(--primary);
+    font-weight:bold ;
+    border-bottom: 2px solid var(--primary);
+}
