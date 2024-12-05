@@ -6,13 +6,6 @@
 O projeto Digital Store é uma aplicação web desenvolvida em React que simula uma loja digital, permitindo aos usuários visualizar e filtrar produtos de acordo com suas preferências. O sistema conta com uma interface intuitiva e diversas funcionalidades para melhorar a experiência do usuário na navegação e compra de produtos.
 
 ---
-
-
-#### Integrantes do Projeto
-
-- **Nome 1**: Luis Henrique
----
-
 #### Bibliotecas Utilizadas
 
 1. **React**: Biblioteca principal para construção da interface de usuário.
@@ -68,15 +61,11 @@ Aqui estão algumas capturas de tela do projeto:
    ```sh
    git clone https://github.com/EugenioIsLove/Digital_FrontEnd.git
    ```
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd Projeto_DigitalStore_GT
-   ```
-3. Instale as dependências:
+2. Instale as dependências:
    ```sh
    npm install
    ```
-4. Inatale as bibliotecas:
+3. Inatale as bibliotecas:
    ```sh
    npm install react react-dom
    npm install vite
@@ -84,12 +73,7 @@ Aqui estão algumas capturas de tela do projeto:
    npm install react-router-dom
    ```
 
-5. Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento:
    ```sh
    npm run dev
    ```
-
-
----
-
-Obrigado pela visita!
